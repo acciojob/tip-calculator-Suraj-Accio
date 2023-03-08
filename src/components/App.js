@@ -3,7 +3,7 @@ import React from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [tipPercent, setTipPercent] = useState(18);
+    const [tipPercent, setTipPercent] = useState(18);
   const [total, setTotal] = useState(0);
   const [people, setPeople] = useState(1);
   const [tip, setTip] = useState(0);
@@ -70,6 +70,7 @@ const App = () => {
         </div>
       </div>
     </>
+  );
 }
 
 export default App
